@@ -237,7 +237,7 @@ useEffect(() => {
                                 <img src={ImgCreateVideo} className='img-fuid w-25' />
                                 <h2 className='h5 my-2'>Create content on any device</h2>
                                 <p className='w-50 m-auto '>Upload and record at home or on the go. Everything you make public will appear here.</p>
-                                <button type='button' className="btn btn-dark rounded-4 px-5 mt-3" data-bs-toggle="modal" data-bs-target="#videoUpload" >Create </button>
+                                <button type='button' className="btn btn-light rounded-4 px-5 mt-3" data-bs-toggle="modal" data-bs-target="#videoUpload" >Create </button>
                             </div>
                         </div>
                     </div>
