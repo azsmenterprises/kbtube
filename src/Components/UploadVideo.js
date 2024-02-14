@@ -159,7 +159,6 @@ const handleFileChange = async (event) => {
 
 
     } else {
-      alert(response.data.message);
       setUploadSuccess(true);
     }
 
@@ -267,7 +266,7 @@ const handleFileChange = async (event) => {
               <div className='row justify-content-center'>
              
                   <div className='col-lg-5'>
-                    <div className="video-upload-btn">
+                    <div className="video-upload-btn bg-gray">
                       <label className="input-group-text" htmlFor="inputGroupFile012">
                         <img src={IcoUpload} alt="UploadCloudIcon" className="m-auto w-25" />
                         <span>Tap to Upload Video</span>
@@ -280,8 +279,8 @@ const handleFileChange = async (event) => {
                   </div>
                    
                     <div className='mt-5'>
-                        <p><small>By submitting your videos to YouTube, you acknowledge that you agree to YouTube's <Link to="/terms">Terms of Service</Link> and <Link to="/terms">Community Guidelines. </Link> 
-                           Please be sure not to violate others' copyright or privacy rights. <Link to="/terms"> Learn more</Link></small></p>
+                        <p><small>By submitting your videos to kbtube, you acknowledge that you agree to kbtube's <Link className='text-white' to="/terms">Terms of Service</Link> and <Link className='text-white' to="/terms">Community Guidelines. </Link> 
+                           Please be sure not to violate others' copyright or privacy rights. <Link className='text-white' to="/terms"> Learn more</Link></small></p>
                     </div>
               </div>
             </div>
@@ -501,7 +500,7 @@ const handleFileChange = async (event) => {
                           type="text"
                           className="form-control"
                           value={uploadedvideo}
-                          placeholder="https://youtu.be/ewntP-Xf_iU"
+                          placeholder="https://kbtube.com/dfsdf"
                           readOnly
                         />
                         <span className="input-group-text" id="basic-addon2">
@@ -516,7 +515,7 @@ const handleFileChange = async (event) => {
                           type="text"
                           className="form-control"
                           value={uploadedfilename}
-                          placeholder="https://youtu.be/ewntP-Xf_iU"
+                          placeholder="https://kbtube.com/asfasdfaf"
                           readOnly
                         />
                       </div>
@@ -525,7 +524,7 @@ const handleFileChange = async (event) => {
                 </div>
             </div>
             <div className="modal-footer">
-              <button type="button" onClick={handleSubmit} className="btn btn-primary">Next</button>
+              <button type="button" onClick={handleSubmit} className="btn btn-light rounded-5 px-4">Next</button>
             </div>
 
           

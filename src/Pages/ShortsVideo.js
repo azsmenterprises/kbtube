@@ -14,7 +14,7 @@ import { formatDistanceToNow } from 'date-fns';
 // const videos = [
 //     {
 //         title: 'Shorts Video 1',
-//         description: 'This is a YouTube Shorts-like video.',
+//         description: 'This is a kbtube Shorts-like video.',
 //         url: '../assets/videos/video-1.mp4',
 //     },
 //     {
@@ -337,7 +337,7 @@ const ShortsVideo = () => {
                                                 </Link>
                                                 <small>Comment</small>
                                             </div>
-                                            <div className='text-center'>
+                                            {/* <div className='text-center'>
                                                 <Link href="#" className='rounded-box-shorts btn btn-light' data-bs-toggle="modal" data-bs-target="#shareModal" >
                                                     <i class="bi bi-share-fill"></i>
                                                 </Link>
@@ -388,7 +388,7 @@ const ShortsVideo = () => {
                                                                     </div>
                                                                 </div>
                                                                 <div class="input-group mb-3 border rounded-5">
-                                                                    <input type="text" class="form-control border-0" value='https://youtube.com/shorts/SfVINN7SI6w?feature=shared' placeholder="video url" aria-label="Recipient's username" aria-describedby="basic-addon2" />
+                                                                    <input type="text" class="form-control border-0" value='https://kbtube.com/shorts/SfVINN7SI6w?feature=shared' placeholder="video url" aria-label="Recipient's username" aria-describedby="basic-addon2" />
                                                                     <span class="input-group-text btn btn-primary rounded-5 " id="basic-addon2">Copy</span>
                                                                 </div>
                                                             </div>
@@ -396,7 +396,7 @@ const ShortsVideo = () => {
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
+                                            </div> */}
                                             <div className='text-center'>
                                                 <Link href="#" className="caret-none rounded-box-shorts btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                                                     <i class="bi bi-three-dots-vertical"></i>
@@ -438,24 +438,24 @@ const ShortsVideo = () => {
                         <div className='col-lg-5 offset-lg-3'>
                             <div className='row g-2 '>
                                 <div className='col-md-10'>
-                                    <div className='video-box-single-v d-flex gap-2 align-items-center' >
+                                    <div className='video-box-single-v d-flex gap-2 align-items-center'>
                                         <Card className='shorts-card shadow-none'>
                                             <div className='video-box'>
-                                            <CardMedia
-                                                component="video"
-                                                alt="Video Poster"
-                                                poster={video.thumbnail}
-                                                autoPlay
-                                                controls // Add the controls attribute here
-                                                className='w-100'
-                                                muted
-                                            >
-                                                <source src={video.url} className='w-100' type="video/mp4" />
-                                                Your browser does not support the video tag.
-                                            </CardMedia>
 
+                                                <CardMedia
+                                                    component="video"
+                                                    alt="Video Poster"
+                                                    poster={video.thumbnail}
+                                                    autoPlay
+                                                    controls
+                                                    className='w-100'
+                                                    muted
+                                                >
+                                                    <source src={video.url} className='w-100' type="video/mp4" />
+                                                    Your browser does not support the video tag.
+                                                </CardMedia>
                                             </div>
-                                            <CardContent className='shorts-card-content ' style={{    paddingBottom: '55px'}}>
+                                            <CardContent className='shorts-card-content '>
                                                 <div className='content-box'>
                                                     <div className='row g-2'>
                                                         <div className='col-lg-12'>
@@ -492,9 +492,7 @@ const ShortsVideo = () => {
                                                         </div>
                                                         <div className='col-12'>
                                                             <h3 className='text-light h6'>
-                                                                {/* {video.title} */}
-                                                                <br></br>
-                                                                <br></br>
+                                                                {video.title}
                                                             </h3>
                                                         </div>
                                                     </div>
@@ -523,7 +521,7 @@ const ShortsVideo = () => {
                                                 </Link>
                                                 <small>Comment</small>
                                             </div>
-                                            <div className='text-center'>
+                                            {/* <div className='text-center'>
                                                 <Link href="#" className='rounded-box-shorts btn btn-light' data-bs-toggle="modal" data-bs-target="#shareModal" >
                                                     <i class="bi bi-share-fill"></i>
                                                 </Link>
@@ -574,7 +572,7 @@ const ShortsVideo = () => {
                                                                     </div>
                                                                 </div>
                                                                 <div class="input-group mb-3 border rounded-5">
-                                                                    <input type="text" class="form-control border-0" value='https://youtube.com/shorts/SfVINN7SI6w?feature=shared' placeholder="video url" aria-label="Recipient's username" aria-describedby="basic-addon2" />
+                                                                    <input type="text" class="form-control border-0" value='https://kbtube.com/shorts/SfVINN7SI6w?feature=shared' placeholder="video url" aria-label="Recipient's username" aria-describedby="basic-addon2" />
                                                                     <span class="input-group-text btn btn-primary rounded-5 " id="basic-addon2">Copy</span>
                                                                 </div>
                                                             </div>
@@ -582,8 +580,8 @@ const ShortsVideo = () => {
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div className='text-center'>
+                                            </div> */}
+                                            {/* <div className='text-center'>
                                                 <Link href="#" className="caret-none rounded-box-shorts btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                                                     <i class="bi bi-three-dots-vertical"></i>
                                                 </Link>
@@ -598,7 +596,7 @@ const ShortsVideo = () => {
                                                     <li><Link className="dropdown-item" href="#"><i class="bi bi-dash-circle me-3"></i>  Don't Recomended Channel </Link></li>
                                                     <li><Link className="dropdown-item" href="#"><i className="me-3 bi bi-flag"></i>  Report </Link></li>
                                                 </ul>
-                                            </div>
+                                            </div> */}
                                             <div className='text-center mt-2'>
                                                 <Link href="#" className="rounded-3 overflow-hidden">
                                                     

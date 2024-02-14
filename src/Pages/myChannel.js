@@ -164,7 +164,7 @@ function Customization() {
                           <div className='col-lg-9'>
                             <div className='box'>
                               <h3 className='h5'>Picture </h3>
-                              <p><small>Your profile picture will appear where your channel is presented on YouTube, like next to your videos and comments</small></p>
+                              <p><small>Your profile picture will appear where your channel is presented on kbtube, like next to your videos and comments</small></p>
                               <div className='row align-items-center'>
                                 <div className='col-lg-4'>
                                   <div className='bg-light text-center p-3'>
@@ -184,10 +184,10 @@ function Customization() {
                                   </div>
                                 </div>
                                 <div className='col-lg-8'>
-                                  <p><small>It’s recommended to use a picture that’s at least 98 x 98 pixels and 4MB or less. Use a PNG or GIF (no animations) file. Make sure your picture follows the YouTube Community Guidelines. </small></p>
+                                  <p><small>It’s recommended to use a picture that’s at least 98 x 98 pixels and 4MB or less. Use a PNG or GIF (no animations) file. Make sure your picture follows the kbtube Community Guidelines. </small></p>
                                   <div className="video-upload-btn w-50">
                                     <label className="input-group-text h-auto" for="inputGroupFile011">
-                                      <span className='text-primary'>Upload</span></label>
+                                      <span className='text-white'>Upload</span></label>
                                     <input type="file" className="form-control" id="inputGroupFile011"  accept=".png, .jpg, .jpeg, .gif" name="file" onChange={handleFileChange}/>
                                   </div>
                                 </div>
@@ -214,10 +214,10 @@ function Customization() {
                                   </div>
                                 </div>
                                  <div className='col-lg-8'>
-                                  <p><small>It’s recommended to use a picture that’s at least 98 x 98 pixels and 4MB or less. Use a PNG or GIF (no animations) file. Make sure your picture follows the YouTube Community Guidelines. </small></p>
+                                  <p><small>It’s recommended to use a picture that’s at least 98 x 98 pixels and 4MB or less. Use a PNG or GIF (no animations) file. Make sure your picture follows the kbtube Community Guidelines. </small></p>
                                   <div className="video-upload-btn w-50">
                                     <label className="input-group-text h-auto" for="inputGroupFile013">
-                                      <span className='text-primary'>Upload</span></label>
+                                      <span className='text-white'>Upload</span></label>
                                     <input type="file" className="form-control" id="inputGroupFile013"  accept=".png, .jpg, .jpeg, .gif" name="file" onChange={handleFileChanges1}/>
                                   </div>
                                 </div>
@@ -236,7 +236,7 @@ function Customization() {
                           <div className='col-lg-9'>
                             <div className='box mb-3'>
                               <h3 className='h6'>Name</h3>
-                              <p><small>Choose a channel name that represents you and your content. Changes made to your name and picture are visible only on YouTube and not other Google services. You can change your name twice in 14 days. </small></p>
+                              <p><small>Choose a channel name that represents you and your content. Changes made to your name and picture are visible only on kbtube and not other Google services. You can change your name twice in 14 days. </small></p>
                               <div className="form-group">
                                 <input 
                                     type="text" 
@@ -250,7 +250,7 @@ function Customization() {
                             </div>
                             <div className='box mb-3'>
                               <h3 className='h6'>Handle</h3>
-                              <p><small>Choose a channel name that represents you and your content. Changes made to your name and picture are visible only on YouTube and not other Google services. You can change your name twice in 14 days.</small></p>
+                              <p><small>Choose a channel name that represents you and your content. Changes made to your name and picture are visible only on kbtube and not other Google services. You can change your name twice in 14 days.</small></p>
                               <div className="form-group">
                                 <input 
                                     type="text" 
@@ -261,7 +261,7 @@ function Customization() {
                                     placeholder="Enter your Channel Name *" 
                                 />
                               </div>
-                              <p><small>url: https://www.youtube.com/@azsm-dfas4</small></p>
+                              <p><small>url: https://www.kbtube.com/@azsm-dfas4</small></p>
                             </div>
                             <div className='box mb-3'>
                               <h3 className='h6'>Description</h3>
@@ -279,7 +279,7 @@ function Customization() {
                           
                             <div className='box mb-3'>
                               <h3 className='h6'>Contact info</h3>
-                              <p><small>Choose a channel name that represents you and your content. Changes made to your name and picture are visible only on YouTube and not other Google services. You can change your name twice in 14 days. </small></p>
+                              <p><small>Choose a channel name that represents you and your content. Changes made to your name and picture are visible only on kbtube and not other Google services. You can change your name twice in 14 days. </small></p>
                               <div className="form-group">
                                 <input type="text" 
                                 className="form-control" 

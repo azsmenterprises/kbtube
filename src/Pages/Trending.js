@@ -239,7 +239,7 @@ function Trending() {
                   allVideo.map((video, index) => (
                      <div className='col-lg-4'>
                         <div className='video-box-single-v with-action'>
-                           <Card className='shadow-none'>
+                           <Card className='shadow-none h-194-video'>
                               <div className='video-box cursor-pointer'>
                                  {/* <span className='duration-time'>11:11:11</span> */}
                                  <div onClick={() => viewVideo(video.videoId, video.playlistCategory)}>

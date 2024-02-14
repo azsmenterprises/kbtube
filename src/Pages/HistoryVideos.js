@@ -378,8 +378,8 @@ function HistoryVideos() {
                                                                 <Typography variant="body2" color="text.secondary">
                                                                     <a href='/channel' className='channel-name'>{video.channel.name} <span>.</span>  {formatViewsCount(video.video.view)} views</a>
                                                                 </Typography>
-                                                                <Typography variant="body3" color="text.secondary">
-                                                                    <small>{video.video.description}</small>
+                                                                <Typography >
+                                                                    <small className='text-secondary'>{video.video.description}</small>
                                                                 </Typography>
                                                             </div>
                                                         </div>
